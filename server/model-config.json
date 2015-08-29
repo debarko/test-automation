@@ -60,5 +60,9 @@
   "AuthUser": {
     "dataSource": "ta",
     "public": true
+  },
+  "container": {
+    "dataSource": "file-store",
+    "public": true
   }
 }
