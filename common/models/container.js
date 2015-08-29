@@ -1,6 +1,6 @@
 module.exports = function(Container) {
-	Container.beforeRemote('POST', function( ctx, modelInstance, next) { 
-		var parseApk = require('apk-parser');
+	Container.afterRemote('upload', function( ctx, modelInstance, next) { 
+		console.log(modelInstance);
 	 next();
 	});
 };
