@@ -7,7 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "case": {
+    "apk_path": {
       "type": "string",
       "required": true
     }
