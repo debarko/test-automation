@@ -1,7 +1,13 @@
 {
   "name": "container",
   "base": "Model",
-  "properties": {},
+  "idInjection": true,
+  "properties": {
+  	"name": {
+      "type": "string",
+      "required": true
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],
