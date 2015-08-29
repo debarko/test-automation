@@ -1,0 +1,36 @@
+{
+  "name": "build",
+  "plural": "builds",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "apk_path": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "suites": {
+      "type": "hasMany",
+      "model": "suite",
+      "foreignKey": "build_id",
+      "through": "build_suite"
+    },
+    "app": {
+      "type": "belongsTo",
+      "model": "app",
+      "foreignKey": ""
+    },
+    "authUser": {
+      "type": "belongsTo",
+      "model": "AuthUser",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,37 @@
+{
+  "name": "device",
+  "plural": "devices",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "manufacturer": {
+      "type": "string",
+      "required": true
+    },
+    "android_version": {
+      "type": "string",
+      "required": true
+    },
+    "screen_size": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "authUser": {
+      "type": "belongsTo",
+      "model": "AuthUser",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

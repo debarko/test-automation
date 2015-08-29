@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "plural": "apps",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "package_name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "authUser": {
+      "type": "belongsTo",
+      "model": "AuthUser",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

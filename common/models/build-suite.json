@@ -1,0 +1,22 @@
+{
+  "name": "build_suite",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "build_id": {
+      "type": "number",
+      "required": true
+    },
+    "suite_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

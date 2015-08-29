@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "plural": "tests",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "case": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "suite": {
+      "type": "belongsTo",
+      "model": "suite",
+      "foreignKey": "suite_id"
+    },
+    "authUser": {
+      "type": "belongsTo",
+      "model": "AuthUser",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}
