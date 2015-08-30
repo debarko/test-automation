@@ -26,6 +26,14 @@
     "screen_size": {
       "type": "string",
       "required": true
+    },
+    "rent": {
+      "type": "number",
+      "required": true
+    },
+    "score": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
