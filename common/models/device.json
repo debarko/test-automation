@@ -9,31 +9,31 @@
   "properties": {
     "name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "image_url": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "manufacturer": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "android_version": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "screen_size": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "rent": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "score": {
       "type": "number",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
