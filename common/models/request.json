@@ -30,20 +30,18 @@
     "test_duration": {
       "type": "string",
       "required": true
+    },
+    "apk_instrumentation_url": {
+      "type": "string",
+      "required": true
+    },
+    "apk_url": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
   "relations": {
-    "build": {
-      "type": "belongsTo",
-      "model": "build",
-      "foreignKey": "build_id"
-    },
-    "test": {
-      "type": "belongsTo",
-      "model": "test",
-      "foreignKey": "test_id"
-    },
     "responses": {
       "type": "hasMany",
       "model": "response",
