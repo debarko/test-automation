@@ -49,20 +49,20 @@
     "dataSource": "ta",
     "public": true
   },
-  "suite": {
-    "dataSource": "ta",
-    "public": true
-  },
-  "build_suite": {
-    "dataSource": "ta",
-    "public": false
-  },
   "AuthUser": {
     "dataSource": "ta",
     "public": true
   },
   "container": {
     "dataSource": "file-store",
+    "public": true
+  },
+  "request": {
+    "dataSource": "ta",
+    "public": true
+  },
+  "response": {
+    "dataSource": "ta",
     "public": true
   }
 }

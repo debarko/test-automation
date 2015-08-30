@@ -1,39 +1,41 @@
 {
-  "name": "device",
-  "plural": "devices",
+  "name": "request",
+  "plural": "requests",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "package_name": {
       "type": "string",
       "required": true
     },
-    "image_url": {
+    "cost": {
       "type": "string",
       "required": true
     },
-    "manufacturer": {
-      "type": "string",
-      "required": true
-    },
-    "android_version": {
-      "type": "string",
-      "required": true
-    },
-    "screen_size": {
+    "status": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
   "relations": {
-    "authUser": {
+    "build": {
       "type": "belongsTo",
-      "model": "AuthUser",
-      "foreignKey": ""
+      "model": "build",
+      "foreignKey": "build_id"
+    },
+    "test": {
+      "type": "belongsTo",
+      "model": "test",
+      "foreignKey": "test_id"
+    },
+    "responses": {
+      "type": "hasMany",
+      "model": "response",
+      "foreignKey": "request_id"
     }
   },
   "acls": [],

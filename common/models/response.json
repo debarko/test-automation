@@ -1,27 +1,31 @@
 {
-  "name": "app",
-  "plural": "apps",
+  "name": "response",
+  "plural": "responses",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "group_name": {
       "type": "string",
       "required": true
     },
-    "package_name": {
+    "test_name": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
   "relations": {
-    "authUser": {
+    "request": {
       "type": "belongsTo",
-      "model": "AuthUser",
-      "foreignKey": ""
+      "model": "request",
+      "foreignKey": "request_id"
     }
   },
   "acls": [],
