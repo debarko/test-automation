@@ -1,0 +1,158 @@
+{
+	"name": "Mi 4i (16 GB)",
+	"image_url": "http://img5a.flixcart.com/image/mobile/b/v/y/mi-4i-mzb4343in-125x125-imae6zxfgr4xmme7.jpeg",
+	"manufacturer": "XIAOMI",
+	"android_version": "MIUI 6",
+	"screen_size": "5 inch & More",
+	"authUserId": 34
+}
+{
+	"name": "Moto G (3rd Generation)",
+	"image_url": "http://img6a.flixcart.com/image/mobile/w/t/n/motorola-moto-g-3rd-generation-ap3560ae7k8-125x125-imae9h4h8gkbpq56.jpeg",
+	"manufacturer": "MOTOROLA",
+	"android_version": "Lollipop (5.0)",
+	"screen_size": "5 inch & More",
+	"authUserId": 21
+}
+{
+	"name": "A6000 Plus",
+	"image_url": "http://img5a.flixcart.com/image/mobile/r/z/z/lenovo-a6000-plus-a6000-plus-125x125-imae6fyhhrwnaywc.jpeg",
+	"manufacturer": "LENOVO",
+	"android_version": "KitKat (4.4)",
+	"screen_size": "5 inch & More",
+	"authUserId": 67
+}
+
+
+4.5 - 5 inch
+------------
+
+{
+	"name": "Sparkle V",
+	"image_url": "http://img6a.flixcart.com/image/mobile/b/n/2/karbonn-android-one-sparkle-v-125x125-imaeffb5gtcznu7k.jpeg",
+	"manufacturer": "KARBONN",
+	"android_version": "KitKat (4.4)",
+	"screen_size": "4.5 - 5 inch",
+	"authUserId": 2
+}
+{
+	"name": "Desire 326G DS",
+	"image_url": "http://img6a.flixcart.com/image/mobile/c/z/z/htc-desire-326g-ds-na-125x125-imae8aggdzgunugu.jpeg",
+	"manufacturer": "HTC",
+	"android_version": "KitKat (4.4)",
+	"screen_size": "4.5 - 5 inch",
+	"authUserId": 3
+}
+{
+	"name": "Zenfone C",
+	"image_url": "http://img6a.flixcart.com/image/mobile/z/r/g/asus-zenfone-c-zc451cg-1b030ww-125x125-imae4eeqkuaqwygs.jpeg",
+	"manufacturer": "ASUS",
+	"android_version": "KitKat (4.4)",
+	"screen_size": "4.5 - 5 inch",
+	"authUserId": 5
+}
+{
+	"name": "Canvas Fire 4",
+	"image_url": "http://img5a.flixcart.com/image/mobile/2/4/r/micromax-canvas-fire-4-a107-125x125-imae5hezkk5pcgzz.jpeg",
+	"manufacturer": "MICROMAX",
+	"android_version": "Lollipop (5.0)",
+	"screen_size": "4.5 - 5 inch",
+	"authUserId": 4
+}
+
+
+4 - 4.5 inch
+------------
+
+{
+	"name": "4X",
+	"image_url": "http://img5a.flixcart.com/image/mobile/2/7/q/honor-honor-4x-che1-l04-125x125-imae69ehtrzdrmzh.jpeg",
+	"manufacturer": "HONOR",
+	"android_version": "KitKat (4.4)",
+	"screen_size": "4 - 4.5 inch",
+	"authUserId": 12
+}
+{
+	"name": "Holly",
+	"image_url": "http://img5a.flixcart.com/image/mobile/h/q/e/huawei-holly-u19-125x125-imaeyw2cmerctjcj.jpeg",
+	"manufacturer": "HONOR",
+	"android_version": "KitKat (4.4)",
+	"screen_size": "4 - 4.5 inch",
+	"authUserId": 45
+}
+{
+	"name": "Galaxy J5",
+	"image_url": "http://img6a.flixcart.com/image/mobile/j/9/z/samsung-galaxy-j7-sm-j700f-125x125-imae9c8a8dsvhnhj.jpeg",
+	"manufacturer": "SAMSUNG",
+	"android_version": "Lollipop (5.0)",
+	"screen_size": "4 - 4.5 inch",
+	"authUserId": 22
+}
+{
+	"name": "Cloud 4G Star",
+	"image_url": "http://img5a.flixcart.com/image/mobile/n/d/v/intex-cloud-4g-star-na-125x125-imae9wcxfrvbhh9a.jpeg",
+	"manufacturer": "INTEX",
+	"android_version": "Lollipop (5.0)",
+	"screen_size": "4 - 4.5 inch",
+	"authUserId": 91
+}
+
+
+3 - 3.5 inch
+------------
+
+{
+	"name": "Forever F520",
+	"image_url": "http://img5a.flixcart.com/image/mobile/p/j/f/forme-forever-f520-125x125-imae3gnwktvnhdxw.jpeg",
+	"manufacturer": "FORME",
+	"android_version": "Jelly Bean (4.1)",
+	"screen_size": "3 - 3.5 inch",
+	"authUserId": 13
+}
+{
+	"name": "L3 II",
+	"image_url": "http://img6a.flixcart.com/image/mobile/n/d/g/lg-optimus-l3-ii-optimus-l3-ii-e425-125x125-imadngwtkfzcgzcq.jpeg",
+	"manufacturer": "LG",
+	"android_version": "Jelly Bean (4.1)",
+	"screen_size": "3 - 3.5 inch",
+	"authUserId": 17
+}
+{
+	"name": "Ericsson Xperia SK17i",
+	"image_url": "http://img5a.flixcart.com//image/mobile/s/h/u/sony-ericsson-xperia-mini-pro-sk17i-125x125-imad2knb6qnz7ksv.jpeg",
+	"manufacturer": "SONY",
+	"android_version": "Gingerbread (2.3)",
+	"screen_size": "3 - 3.5 inch",
+	"authUserId": 23
+}
+{
+	"name": "Pulse",
+	"image_url": "http://img5a.flixcart.com/image/mobile/d/h/3/htc-pulse-pb00100-125x125-imae9xhjhatxghjf.jpeg",
+	"manufacturer": "HTC",
+	"android_version": "Eclair (2.0)",
+	"screen_size": "3 - 3.5 inch",
+	"authUserId": 92
+}
+
+
+
+Less than 3 inch
+----------------
+
+
+{
+	"name": "C11s",
+	"image_url": "http://img5a.flixcart.com/image/mobile/p/x/t/lava-c11s-125x125-imaefdkm45g8gdea.jpeg",
+	"manufacturer": "LAVA",
+	"android_version": "Jelly Bean (4.1)",
+	"screen_size": "Less than 3 inch",
+	"authUserId": 88
+}
+{
+	"name": "Bolt A24",
+	"image_url": "http://img6a.flixcart.com/image/mobile/k/6/m/micromax-bolt-a24-125x125-imadsygu2n3u5yp7.jpeg",
+	"manufacturer": "MICROMAX",
+	"android_version": "Gingerbread (2.3)",
+	"screen_size": "Less than 3 inch",
+	"authUserId": 100
+}
