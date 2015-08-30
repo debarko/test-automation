@@ -18,6 +18,18 @@
     "status": {
       "type": "string",
       "required": true
+    },
+    "app_icon": {
+      "type": "string",
+      "required": true
+    },
+    "app_name": {
+      "type": "string",
+      "required": true
+    },
+    "test_duration": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
